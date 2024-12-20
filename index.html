@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Леонардо - Черепашка-ниндзя</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1b1b1b;
+            color: #fff;
+        }
+        header {
+            background-color: #0c7db1;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0a6a92;
+            padding: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 15px;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffe600;
+        }
+        .content {
+            padding: 20px;
+        }
+        .hero {
+            text-align: center;
+            padding: 20px;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+        .skills, .about {
+            margin: 20px 0;
+        }
+        .skills h2, .about h2 {
+            color: #ffe600;
+        }
+        footer {
+            background-color: #0a6a92;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+
+        /* Адаптивный дизайн */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            nav a {
+                font-size: 1em;
+            }
+            .hero p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Леонардо - Черепашка-ниндзя</h1>
+    </header>
+    <nav>
+        <a href="#about">О Леонардо</a>
+        <a href="#skills">Навыки</a>
+        <a href="#gallery">Галерея</a>
+    </nav>
+    <div class="content">
+        <section class="hero">
+            <img width="500px" src="https://png.klev.club/uploads/posts/2024-06/png-klev-club-qakw-p-leonardo-png-4.png" alt="Леонардо">
+            <p>Леонардо - бесстрашный лидер Черепашек-ниндзя, известный своей храбростью, дисциплиной и мастерством обращения с катанами. Он всегда стремится следовать пути ниндзя и защищать своих братьев.</p>
+        </section>
+        <section id="about" class="about">
+            <h2>О Леонардо</h2>
+            <p>Леонардо - самый старший из четырех черепашек и серьезно относится к своей роли лидера. Тренируясь под руководством Мастера Сплинтера, он превосходно овладел ниндзюцу и владеет двумя катанами с точностью. Он носит синюю маску и назван в честь Леонардо да Винчи.</p>
+        </section>
+        <section id="skills" class="skills">
+            <h2>Навыки</h2>
+            <ul>
+                <li>Эксперт в ниндзюцу</li>
+                <li>Мастерство владения двумя катанами</li>
+                <li>Лидерство и стратегия</li>
+                <li>Ловкость и скрытность</li>
+            </ul>
+        </section>
+        <section id="gallery" class="gallery">
+            <h2>Галерея</h2>
+            <p>Скоро появится!</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Фан-страница Леонардо</p>
+    </footer>
+</body>
+</html>
